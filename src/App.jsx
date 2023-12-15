@@ -144,7 +144,7 @@ function App() {
   // }
 
   return (
-    <div>
+    <div id="App">
       <Header />
 
       <GuessDisplay

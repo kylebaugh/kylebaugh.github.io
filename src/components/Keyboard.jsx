@@ -8,7 +8,7 @@ const Keyboard = (props) => {
 
 
     return (
-        <div>
+        <div id="keyboard">
             <section id='topRow'>
                 <Key letter={'Q'} guess={guess} setGuess={setGuess} color={letterColors.Q.color} letterColors={letterColors} setLetterColors={setLetterColors} word={word}/>
                 <Key letter={'W'} guess={guess} setGuess={setGuess} color={letterColors.W.color} letterColors={letterColors} setLetterColors={setLetterColors} word={word}/>
